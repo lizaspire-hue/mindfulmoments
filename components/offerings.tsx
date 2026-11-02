@@ -15,8 +15,8 @@ const offerings = [
   },
   {
     title: 'Breathing exercises',
-    image: '/images/breath.png',
-    alt: 'Hands resting on the belly during calm breathing',
+    image: '/images/yoga-circle.jpg',
+    alt: 'A group dressed in white sitting on cushions in a tropical garden around a flower mandala',
     text: 'Simple, effective techniques to settle the nervous system, ease anxiety and help you reset in the middle of a hectic day.',
   },
   {
