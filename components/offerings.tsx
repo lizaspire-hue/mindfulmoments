@@ -21,9 +21,9 @@ const offerings = [
   },
   {
     title: 'Online classes',
-    image: '/images/online.png',
-    alt: 'A yoga mat rolled out at home in front of a laptop',
-    text: 'Practise from home, at a time that suits you. A range of offerings from me and guest teachers, joined from anywhere.',
+  image: '/images/online-park.jpg',
+  alt: 'Liz in a three-legged downward dog on a yoga mat in a sunny park',
+  text: 'Practise from anywhere, anytime. A range of offerings from me and guest teachers, live or from the recordings.',
   },
 ]
 

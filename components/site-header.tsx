@@ -4,14 +4,12 @@ import { useState } from 'react'
 import { ONLINE_CLASSES_INFO_URL } from '@/lib/links'
 
 const links = [
-  { href: '#why', label: 'Why it matters' },
-  { href: '#offerings', label: 'Offerings' },
+  { href: '#offerings', label: 'What we offer' },
+  { href: '#membership', label: 'Online' },
   { href: '#schedule', label: 'Schedule' },
-  { href: '#membership', label: 'Membership' },
   { href: '#coaching', label: 'Coaching' },
   { href: '#about', label: 'About' },
-  { href: '#testimonials', label: 'Kind words' },
-  { href: '#contact', label: 'Contact' },
+  { href: '#retreats', label: 'Retreats' },
 ]
 
 export function SiteHeader() {

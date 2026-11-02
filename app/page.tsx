@@ -7,6 +7,7 @@ import { Schedule } from '@/components/schedule'
 import { Membership } from '@/components/membership'
 import { Coaching } from '@/components/coaching'
 import { About } from '@/components/about'
+import { Retreats } from '@/components/retreats'
 import { Testimonials } from '@/components/testimonials'
 import { QuoteBand } from '@/components/quote-band'
 import { Contact } from '@/components/contact'
@@ -25,6 +26,7 @@ export default function Home() {
         <Membership />
         <Coaching />
         <About />
+        <Retreats />
         <Testimonials />
         <QuoteBand />
         <Contact />
