@@ -85,7 +85,7 @@ section { padding: 88px 0; scroll-margin-top: 68px; }
 
 /* gallery strip */
 .strip { padding: 0 0 88px; background: var(--paper); }
-.strip .row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.strip .row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
 .strip .ph { min-height: 300px; border-radius: 24px; }
 .card-photo { position: relative; display: grid; }
 .card-photo > .ph, .card-photo > .daily-card { grid-area: 1 / 1; }

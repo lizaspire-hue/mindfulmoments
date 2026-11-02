@@ -11,8 +11,11 @@ export function Schedule() {
         <div>
           <h2>Weekly online classes</h2>
           <p className="lead">
-            Three live classes every week, taught by me and guest teachers. Practise from anywhere in the world, and if
-            you can&apos;t make it live, the recording is available afterwards.
+            <strong>3 classes a week, and more to come.</strong> From myself and guest teachers.
+          </p>
+          <p className="lead">
+            Practise from anywhere in the world, and if you can&apos;t make it live, the recording is available
+            afterwards.
           </p>
           <p className="note">All times are UK time (London). Class links are sent to members before each session.</p>
           <p className="cta">
