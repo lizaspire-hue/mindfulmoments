@@ -30,9 +30,6 @@ export function SiteHeader() {
         </div>
       </div>
       <div className="wrap bar">
-        <a className="logo" href="#top">
-          Mindful Moments<small>&amp; Connected-YOU Events</small>
-        </a>
         <nav className="site-nav" aria-label="Main">
           <button
             type="button"
