@@ -6,7 +6,8 @@ export function Hero() {
     <section className="hero">
       <div className="wrap grid">
         <div>
-          <h1>Slow down. Breathe. Come home to yourself.</h1>
+          <h1 className="hero-title">Mindful Moments</h1>
+          <p className="hero-tagline">Slow down. Breathe. Come home to yourself.</p>
           <p className="lead">
             Yoga, Slo Flo, breathwork and coaching to help you release tension, build resilience and find a touch more
             balance, in the studio or from your living room.
