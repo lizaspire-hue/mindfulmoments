@@ -5,12 +5,10 @@ import { PhotoFrame } from './photo-frame'
 export function Hero() {
   return (
     <section className="hero">
+      <LogoMark className="hero-logo" />
       <div className="wrap grid">
         <div>
-          <h1 className="hero-title">
-            <span>Mindful Moments</span>
-            <LogoMark className="hero-logo" />
-          </h1>
+          <h1 className="hero-title">Mindful Moments</h1>
           <p className="hero-tagline">Slow down. Breathe. Come home to yourself.</p>
           <p className="lead">
             Yoga, Slo Flo, breathwork and coaching to help you release tension, build resilience and find a touch more
