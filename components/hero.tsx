@@ -1,9 +1,11 @@
 import { ONLINE_CLASSES_INFO_URL } from '@/lib/links'
+import { LogoMark } from './logo-mark'
 import { PhotoFrame } from './photo-frame'
 
 export function Hero() {
   return (
     <section className="hero">
+      <LogoMark className="hero-logo" />
       <div className="wrap grid">
         <div>
           <h1 className="hero-title">Mindful Moments</h1>
