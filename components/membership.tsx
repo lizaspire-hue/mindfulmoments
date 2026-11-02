@@ -1,3 +1,4 @@
+import { ONLINE_CLASSES_INFO_URL } from '@/lib/links'
 import { CopyCodeButton } from './copy-code-button'
 
 const perks = [
@@ -39,6 +40,9 @@ export function Membership() {
           </div>
           <a className="btn" href={SIGN_UP_URL} target="_blank" rel="noopener noreferrer">
             Start your membership
+          </a>
+          <a className="info-link" href={ONLINE_CLASSES_INFO_URL} target="_blank" rel="noopener noreferrer">
+            Not ready yet? Sign up for online class info
           </a>
         </div>
       </div>

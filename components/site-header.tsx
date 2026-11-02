@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { ONLINE_CLASSES_INFO_URL } from '@/lib/links'
 
 const links = [
   { href: '#why', label: 'Why it matters' },
@@ -18,6 +19,16 @@ export function SiteHeader() {
 
   return (
     <header className="site-header">
+      <div className="announce">
+        <div className="wrap announce-row">
+          <p>
+            <strong>Online classes with the monthly membership.</strong> Sign up to take time out.
+          </p>
+          <a href={ONLINE_CLASSES_INFO_URL} target="_blank" rel="noopener noreferrer">
+            Get class info
+          </a>
+        </div>
+      </div>
       <div className="wrap bar">
         <a className="logo" href="#top">
           Mindful Moments<small>&amp; Connected-YOU Events</small>
