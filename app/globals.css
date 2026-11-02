@@ -155,6 +155,7 @@ blockquote cite { display: block; margin-top: 16px; font-style: normal; font-wei
 .contact dt { font-weight: 600; color: var(--pine); margin-top: 14px; }
 .contact dd { margin: 0; }
 .contact form { display: grid; gap: 16px; }
+.contact-form-placeholder { min-height: 420px; }
 .contact label { font-weight: 500; font-size: 0.95rem; }
 .contact input, .contact textarea { width: 100%; font: inherit; padding: 13px 16px; border: 1.5px solid var(--sage); border-radius: 14px; background: var(--paper); margin-top: 6px; color: var(--ink); }
 .contact textarea { min-height: 130px; resize: vertical; }
