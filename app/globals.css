@@ -95,7 +95,10 @@ section { padding: 88px 0; scroll-margin-top: 68px; }
 .slots li:nth-child(2) { border-color: var(--sage); }
 .slots li:nth-child(3) { border-color: var(--brass); }
 .slots .day { font-family: var(--serif); font-size: 1.5rem; color: var(--pine); }
-.slots .time { font-weight: 600; font-size: 1.15rem; }
+  .slots li { align-items: center; }
+  .slots .slot-info { display: flex; flex-direction: column; gap: 2px; }
+  .slots .class-name { font-weight: 600; color: var(--ink); line-height: 1.4; }
+  .slots .time { font-weight: 600; font-size: 1.15rem; white-space: nowrap; }
 .sched .note { margin-top: 18px; color: var(--muted); font-size: 0.95rem; }
 .sched .cta { margin-top: 24px; }
 

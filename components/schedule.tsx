@@ -1,7 +1,7 @@
 const slots = [
-  { day: 'Monday', time: '7:00pm' },
-  { day: 'Wednesday', time: '7:00pm' },
-  { day: 'Sunday', time: '5:00pm' },
+  { day: 'Monday', time: '7:00pm', name: 'Mindful Yoga' },
+  { day: 'Wednesday', time: '7:00pm', name: 'Breathe & Yin' },
+  { day: 'Sunday', time: '5:00pm', name: 'Slo Flo & Meditation/Sound' },
 ]
 
 export function Schedule() {
@@ -24,7 +24,10 @@ export function Schedule() {
         <ul className="slots" aria-label="Class timetable">
           {slots.map((s) => (
             <li key={s.day}>
-              <span className="day">{s.day}</span>
+              <span className="slot-info">
+                <span className="day">{s.day}</span>
+                <span className="class-name">{s.name}</span>
+              </span>
               <span className="time">{s.time}</span>
             </li>
           ))}
