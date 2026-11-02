@@ -9,8 +9,8 @@ const offerings = [
   },
   {
     title: 'Slo Flo',
-    image: '/images/sloflo.png',
-    alt: 'Arms extended in a slow, flowing stretch',
+    image: '/images/sloflo-class.jpg',
+    alt: 'A Slo Flo class resting in child’s pose on mats in a wood-beamed hall, with a crystal singing bowl in the foreground',
     text: 'Slow, flowing movement linked with the breath. Take your time, move with ease and let tension soften with every transition.',
   },
   {
