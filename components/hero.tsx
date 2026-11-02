@@ -28,7 +28,11 @@ export function Hero() {
             Explore all offerings
           </a>
         </div>
-        <PhotoFrame src="/images/hero.png" alt="Sunrise over soft misty hills" priority />
+        <PhotoFrame
+          src="/images/liz-namaste.jpg"
+          alt="Liz in a white lace top with hands in prayer, beside an ivy-covered wall"
+          priority
+        />
       </div>
     </section>
   )
