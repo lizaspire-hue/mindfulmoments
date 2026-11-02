@@ -10,6 +10,7 @@ const perks = [
 ]
 
 const DISCOUNT_CODE = 'MINDFUL40'
+const SIGN_UP_URL = 'https://buy.stripe.com/4gM9AV57acGO5kS6E12400l'
 
 export function Membership() {
   return (
@@ -36,7 +37,7 @@ export function Membership() {
             <strong>{DISCOUNT_CODE}</strong>
             <CopyCodeButton code={DISCOUNT_CODE} />
           </div>
-          <a className="btn" href="#contact">
+          <a className="btn" href={SIGN_UP_URL} target="_blank" rel="noopener noreferrer">
             Start your membership
           </a>
         </div>
