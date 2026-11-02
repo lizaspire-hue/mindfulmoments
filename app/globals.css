@@ -137,7 +137,8 @@ section { padding: 88px 0; scroll-margin-top: 68px; }
 /* about */
 .about { background: var(--paper); }
 .about .grid { display: grid; grid-template-columns: 260px 1fr; gap: 48px; align-items: start; }
-.about .story p { max-width: 62ch; }
+  .about .story p { max-width: 62ch; }
+  .about .ph img { object-position: 50% 12%; }
 .about .story h3 { margin-top: 28px; }
 
 /* testimonials */

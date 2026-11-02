@@ -5,8 +5,8 @@ export function About() {
     <section className="about" id="about">
       <div className="wrap grid">
         <PhotoFrame
-          src="/images/portrait.png"
-          alt="A woman meditating on a hillside at sunrise"
+          src="/images/liz.jpg"
+          alt="Liz Marsland laughing outdoors in the sunshine with a horse"
           variant="round"
           sizes="260px"
         />
