@@ -1,4 +1,5 @@
 import { ONLINE_CLASSES_INFO_URL } from '@/lib/links'
+import { LogoMark } from './logo-mark'
 import { PhotoFrame } from './photo-frame'
 
 export function Hero() {
@@ -6,7 +7,10 @@ export function Hero() {
     <section className="hero">
       <div className="wrap grid">
         <div>
-          <h1 className="hero-title">Mindful Moments</h1>
+          <h1 className="hero-title">
+            <span>Mindful Moments</span>
+            <LogoMark className="hero-logo" />
+          </h1>
           <p className="hero-tagline">Slow down. Breathe. Come home to yourself.</p>
           <p className="lead">
             Yoga, Slo Flo, breathwork and coaching to help you release tension, build resilience and find a touch more
