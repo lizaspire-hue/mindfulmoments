@@ -1,3 +1,12 @@
+// Password-manager extensions (e.g. LastPass) inject icon nodes into the
+// field's parent before hydration, causing a mismatch. These opt the
+// non-credential contact fields out of that injection.
+const ignorePasswordManagers = {
+  'data-lpignore': 'true',
+  'data-1p-ignore': 'true',
+  'data-form-type': 'other',
+} as const
+
 export function Contact() {
   return (
     <section className="contact" id="contact">
@@ -21,19 +30,19 @@ export function Contact() {
         <form action="mailto:lizaspire@gmail.com" method="post" encType="text/plain">
           <label>
             Name
-            <input name="name" required autoComplete="name" />
+            <input name="name" required autoComplete="name" {...ignorePasswordManagers} />
           </label>
           <label>
             Email
-            <input type="email" name="email" required autoComplete="email" />
+            <input type="email" name="email" required autoComplete="email" {...ignorePasswordManagers} />
           </label>
           <label>
             Subject
-            <input name="subject" />
+            <input name="subject" {...ignorePasswordManagers} />
           </label>
           <label>
             Message
-            <textarea name="message" required />
+            <textarea name="message" required {...ignorePasswordManagers} />
           </label>
           <button className="btn" type="submit">
             Send message
