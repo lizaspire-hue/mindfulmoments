@@ -3,8 +3,8 @@ import { PhotoFrame } from './photo-frame'
 const offerings = [
   {
     title: 'Yoga',
-    image: '/images/yoga.png',
-    alt: 'A woman practising gentle yoga in a bright studio',
+    image: '/images/yoga-park.jpg',
+    alt: 'Three women holding tree pose on yoga mats in a sunny park',
     text: 'Mindful, grounded classes that build strength and flexibility while calming a busy mind. Suitable for beginners and regular practitioners.',
   },
   {
