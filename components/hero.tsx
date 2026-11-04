@@ -1,6 +1,7 @@
 import { ONLINE_CLASSES_INFO_URL } from '@/lib/links'
 import { LogoMark } from './logo-mark'
 import { PhotoFrame } from './photo-frame'
+import { slots } from './schedule'
 
 export function Hero() {
   return (
@@ -17,6 +18,19 @@ export function Hero() {
           <div className="online-callout">
             <span className="eyebrow">Online classes &middot; Monthly membership</span>
             <p>Join live from anywhere, with recordings afterwards. Sign up to take time out and get class info.</p>
+            <fieldset className="class-choices">
+              <legend>Choose from 3 classes a week</legend>
+              {slots.map((s, i) => (
+                <label key={s.day} className="class-choice">
+                  <input type="radio" name="hero-class" value={s.name} defaultChecked={i === 0} />
+                  <span className="class-choice-info">
+                    <span className="class-choice-day">{s.day}</span>
+                    <span className="class-choice-name">{s.name}</span>
+                  </span>
+                  <span className="class-choice-time">{s.time}</span>
+                </label>
+              ))}
+            </fieldset>
             <div className="actions">
               <a className="btn" href={ONLINE_CLASSES_INFO_URL} target="_blank" rel="noopener noreferrer">
                 Sign up for online class info

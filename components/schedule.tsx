@@ -1,4 +1,4 @@
-const slots = [
+export const slots = [
   { day: 'Monday', time: '7:00pm', name: 'Mindful Yoga' },
   { day: 'Wednesday', time: '7:00pm', name: 'Breathe & Yin' },
   { day: 'Sunday', time: '5:00pm', name: 'Slo Flo & Meditation/Sound' },
