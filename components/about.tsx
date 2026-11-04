@@ -17,9 +17,8 @@ export function About() {
             hard way why slowing down matters.
           </p>
           <p>
-            For years, my sport, my physique and competing were my identity. My worth felt tied to how I performed and
-            how I looked. I pushed harder, kept going and called it discipline, until I burned out. My mind and body had
-            become too strained to carry on the way I was.
+            For years, my identity was linked to work, making money in a tough city, looking strong and lean, and
+            performing well in my sports. My nervous system never had space to rest, and so I burned out.
           </p>
           <p>
             What followed was a long journey of slowing down. I tried what worked for me: yoga, sound, meditation,
