@@ -2,7 +2,7 @@ import { DailyCard } from './daily-card'
 import { PhotoFrame } from './photo-frame'
 
 const photos = [
-  { src: '/images/stones.png', alt: 'Balanced stones beside a calm lake' },
+  { src: '/images/autumn-park.jpg', alt: 'Golden autumn plane trees lining a quiet park path with a wooden bench' },
   { src: '/images/leaves.png', alt: 'A leafy branch in soft sunlight' },
 ]
 

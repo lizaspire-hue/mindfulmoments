@@ -8,6 +8,7 @@ const links = [
   { href: '#membership', label: 'Online' },
   { href: '#schedule', label: 'Schedule' },
   { href: '#coaching', label: 'Coaching' },
+  { href: '#massage', label: 'Massage' },
   { href: '#about', label: 'About' },
   { href: '#retreats', label: 'Retreats' },
 ]
