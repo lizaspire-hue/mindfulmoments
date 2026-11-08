@@ -149,6 +149,21 @@ section { padding: 88px 0; scroll-margin-top: 68px; }
 .coach-focus { margin-top: 26px; padding: 22px 24px; background: var(--paper); border-radius: 18px; }
 .coach-focus h3 { margin: 0 0 8px; font-size: 1.35rem; }
 .coach-focus p { margin: 0; color: var(--muted); line-height: 1.6; }
+.massage { padding: 96px 0; }
+.massage .grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items: center; }
+.massage .ph { min-height: 540px; }
+.journey { list-style: none; padding: 0; margin: 28px 0 0; display: grid; gap: 14px; }
+.journey li { padding: 20px 24px; background: var(--paper); border-radius: 18px; border: 1.5px solid var(--sage); }
+.journey-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 6px; }
+.journey-head h3 { margin: 0; font-size: 1.3rem; }
+.journey-head span { font-size: 0.85rem; font-weight: 600; color: var(--pine); background: var(--mist); border-radius: 99px; padding: 4px 12px; white-space: nowrap; }
+.journey li p { margin: 0; color: var(--muted); line-height: 1.6; }
+.massage-where { margin: 22px 0 26px; font-weight: 600; color: var(--pine); }
+@media (max-width: 900px) {
+  .massage { padding: 64px 0; }
+  .massage .grid { grid-template-columns: 1fr; gap: 36px; }
+  .massage .ph { min-height: 380px; order: -1; }
+}
 .tags { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0 30px; padding: 0; list-style: none; }
 .tags li { border: 1.5px solid var(--sage); border-radius: 99px; padding: 8px 18px; font-weight: 500; background: var(--paper); }
 

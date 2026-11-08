@@ -6,6 +6,7 @@ import { Gallery } from '@/components/gallery'
 import { Schedule } from '@/components/schedule'
 import { Membership } from '@/components/membership'
 import { Coaching } from '@/components/coaching'
+import { Massage } from '@/components/massage'
 import { About } from '@/components/about'
 import { Retreats } from '@/components/retreats'
 import { Testimonials } from '@/components/testimonials'
@@ -25,6 +26,7 @@ export default function Home() {
         <Schedule />
         <Membership />
         <Coaching />
+        <Massage />
         <About />
         <Retreats />
         <Testimonials />
